@@ -150,7 +150,11 @@ def network_flow_lexifair(cost_matrix):
     }
 
 
-# 🎯 Run and compare
+#  Run and compare
+print("----- Initial Cost Matrix -----")
+print(cost_matrix)
+print()
+
 print("----- Efficient Assignment -----")
 efficient_results = efficient_assignment(cost_matrix)
 for k, v in efficient_results.items():
